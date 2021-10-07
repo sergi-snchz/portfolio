@@ -13,7 +13,7 @@ export default function About({ theme }) {
         </div>
         <div>
           <h2 className={"text-center text-lg font-medium m-5 " + theme.textColor}>TOP EXPERTISE</h2>
-          <p className={"leading-7 text-justify " + theme.textColor}>Fullstack developer with primary focus on React, Node.js with Express.js and MariaDB</p>
+          <p className={"leading-7 text-justify " + theme.textColor}>Fullstack developer with primary focus on React, Node.js with Express.js and PostgreSQL</p>
           <div className={"flex justify-around mt-5 pt-5 pb-5 leading-7 rounded shadow-lg " + theme.expertiseBackground + " " + theme.textColor}>
             <ul>
               <li>JavaScript</li>
@@ -25,7 +25,7 @@ export default function About({ theme }) {
             <ul>
               <li>Python</li>
               <li>Linux</li>
-              <li>MariaDB</li>
+              <li>PostgreSQL</li>
               <li>Heroku</li>
               <li>Git</li>
             </ul>
